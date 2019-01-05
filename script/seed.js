@@ -4,6 +4,7 @@ const fs = require('fs')
 const faker = require('faker')
 const foo = 'foo'
 const bar = 'bar'
+const baz = 'baz'
 
 const seed = async () => {
   try {
