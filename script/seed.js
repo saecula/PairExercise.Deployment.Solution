@@ -3,6 +3,7 @@ const users = require('./users.json')
 const fs = require('fs')
 const faker = require('faker')
 const foo = 'foo'
+const bar = 'bar'
 
 const seed = async () => {
   try {
