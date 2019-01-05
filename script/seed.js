@@ -2,6 +2,7 @@ const db = require('../server/db')
 const users = require('./users.json')
 const fs = require('fs')
 const faker = require('faker')
+const foo = 'foo'
 
 const seed = async () => {
   try {
