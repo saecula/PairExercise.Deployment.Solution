@@ -10,7 +10,7 @@ const seed = async () => {
   try {
     console.log('syncing DB...')
     await db.sync({ force: true })
-    console.log('db synced!')
+    console.log('db is sooooo synced!')
 
     console.log('seeding DB...')
     await db.models.user.bulkCreate(users)
